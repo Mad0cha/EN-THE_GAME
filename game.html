@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EN - THE GAME</title>
+
+        <!-- CSS files -->
+        <link rel="stylesheet" href="assets/css/gamestyle.css">
+        
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+
+        <!-- JavaScript -->
+        <script src="assets/js/script.js"></script>
+        <!-- Jquery and Jquery libraries -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.Marquee/1.5.0/jquery.marquee.min.js"></script>
+
+    </head>
+    <body>
+        <!-- A div box that's only used to center the game window -->
+        <div class="center">
+            <div class="overlay hideDisplay">
+                <img src="assets/img/window.png" class="window hideDisplay">
+
+                <div class="windowTxt hideDisplay">
+                    <p>A sua avaliação final na UC Ecologia Numérica foi:</p>
+                    <span id="finalScore"></span>
+                    <span id="youWon"></span>
+                    <p id="btnTxt" class="btnTxt">Recurso</p>
+                    <img src="assets/img/button.png" id="againbtn" class="againbtn hideDisplay">
+                </div>
+                
+                <img src="assets/img/homebtn.png" id="closebtn" class="closebtn hideDisplay">
+            </div>
+
+            <div id="game-board">
+                <img src="assets/img/hero.gif" class="hero">
+                <img src="assets/img/obstacles/1.png" id="obstacle" class="obstacle">
+
+                <div id="counter" class="counter"></div>
+                
+                <img src="assets/img/score.png" class="score"> 
+
+                <div id="sky-div" class="sky-scroll">
+                    <img src="assets/img/sky.png" class="sky">
+                </div>
+
+                <div class="mountain-scroll">
+                    <img src="assets/img/mountain.png" class="mountain">
+                </div>
+            </div>
+
+            <img src="assets/img/floor.png" class="floor">  
+        </div>
+    </body>
+</html>
